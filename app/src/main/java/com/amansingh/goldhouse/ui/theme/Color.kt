@@ -1,11 +1,17 @@
 package com.amansingh.goldhouse.ui.theme
 
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+val GoldGradient = Brush.linearGradient(
+    colors = listOf(Color(0xFFF2B70D), Color(0xFFB88614)),
+    start = Offset(0f, 0f), // Corresponds to 135deg angle
+    end = Offset.Infinite
+)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+object GoldHouseColors {
+    val PrimaryForeground =Color(0xFFF0D175) // --primary-foreground
+    val InputBackground = Color(0xFF333B4C)
+    val InputBorder = Color(0xFFD1D8E0) // --input
+}
