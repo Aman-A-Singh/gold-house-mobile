@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Gold House</string>
+    <string name="unexpected_error">An unexpected error occurred</string>
+    <string name="gold_house_logo_text">GH</string>
+    <string name="gold_house_title">GOLD HOUSE</string>
+    <string name="order_management_system">Order Management System</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signing_in">Signing In</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="application_json">application/json</string>
 </resources>
